@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<h1>Welcome to Django Demo</h1>
+
+<ul>
+ <li><a href="{% url 'Users'  %}">Users </a></li>
+ <li><a href="{% url 'Products'  %}">Products </a></li>
+</ul>
+
+
+{% endblock %}
